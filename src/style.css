@@ -1,5 +1,22 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+.my-card {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0;
+    user-select: none;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+/* #newCardBtn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+} */
